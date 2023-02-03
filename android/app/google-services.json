@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "982315841338",
+    "project_id": "patrioot-47123",
+    "storage_bucket": "patrioot-47123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982315841338:android:ed187b5ee25863a2da0203",
+        "android_client_info": {
+          "package_name": "com.patrioot.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982315841338-lrnouvo3ojtgpcuak6a0r9r19t6amd1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patrioot.customer",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "982315841338-a7vgb8qs6rijb9rp34gkqpggn2vm4v0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATXl4HcbasRi724JDKqt4QzXjh42L8isM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982315841338-a7vgb8qs6rijb9rp34gkqpggn2vm4v0o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "982315841338-gquvki90p6oflrm9jguo2i17a4qs9tn7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.patrioot.driver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982315841338:android:160e5f94abe9a4f3da0203",
+        "android_client_info": {
+          "package_name": "com.patrioot.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982315841338-a7vgb8qs6rijb9rp34gkqpggn2vm4v0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATXl4HcbasRi724JDKqt4QzXjh42L8isM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982315841338-a7vgb8qs6rijb9rp34gkqpggn2vm4v0o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "982315841338-gquvki90p6oflrm9jguo2i17a4qs9tn7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.patrioot.driver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+export const ADD_USER_MESSAGE = 'ADD_USER_MESSAGE';
+export const CLEAR_OLD_MESSAGE = 'CLEAR_OLD_MESSAGE';

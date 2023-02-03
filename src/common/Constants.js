@@ -1,0 +1,126 @@
+import { Dimensions, StatusBar } from 'react-native';
+import { RFValue } from 'react-native-responsive-fontsize';
+
+const { height: HEIGHT, width: WIDTH } = Dimensions.get('window');
+
+let DeviceHeightAid = HEIGHT < 680 ? 2 : 0;
+
+
+const Constants = {
+  Language: 'en',
+  WebsiteLink: 'https://www.patrioot.com/',
+  PrivacyPolicyLink: 'https://www.patrioot.com/privacy-policy',
+  TermsOfServiceLink: 'https://www.patrioot.com/terms',
+  RatePatriootLink: 'https://www.patrioot.com/',
+  StartDeliveringLink: 'https://www.patrioot.com/',
+
+  MQTT_URI: 'mqtt://mqtt.dashboard-patrioot.com:1883', // 'mqtt://patrioot.senarios.co:1883',
+  MQTT_USER: 'sammy',
+  MQTT_PASS: '1234',
+
+  AppNameFontFamily: 'LeckerliOne-Regular',
+
+  fontFamily: "Roboto-Regular",
+  fontFamilyMedium: "Roboto-Medium",
+  fontFamilyBold: "Roboto-Bold",
+
+  fontFamilyArabic: "Tajawal-Regular", // "ElMessiri-Regular",
+  fontFamilyArabicMedium: "Tajawal-Medium",
+  fontFamilyArabicBold: "Tajawal-Bold", //"ElMessiri-Bold",
+
+  MapBoxAccessToken: "pk.eyJ1Ijoic2VuYXJpb3MiLCJhIjoiY2tqOG00ejR5MGE0cTMxcDdhamZrMmo3bSJ9.gcVcNQrR-EJnexxh1NV4Kg",
+  GoogleAPIKey: "AIzaSyCdvIWAdOr46Oz-AQ1WAFA9wZP066j9N2U",
+
+  PlaceholderImage: 'http://68.183.87.136/storage/media/profile_pics/grey-image.jpg',
+
+  showStatusBar: true,
+  debugMode: false,
+
+  SplashScreen: {
+    Duration: 2000,
+  },
+  STATUSBAR_HEIGHT: StatusBar.currentHeight,
+
+  ResponsiveSize: {
+    f1: RFValue(1 + DeviceHeightAid),
+    f2: RFValue(2 + DeviceHeightAid),
+    f3: RFValue(3 + DeviceHeightAid),
+    f4: RFValue(4 + DeviceHeightAid),
+    f5: RFValue(5 + DeviceHeightAid),
+    f6: RFValue(6 + DeviceHeightAid),
+    f7: RFValue(7 + DeviceHeightAid),
+    f8: RFValue(8 + DeviceHeightAid),
+    f9: RFValue(9 + DeviceHeightAid),
+    f10: RFValue(10 + DeviceHeightAid),
+    f11: RFValue(11 + DeviceHeightAid),
+    f12: RFValue(12 + DeviceHeightAid),
+    f13: RFValue(13 + DeviceHeightAid),
+    f14: RFValue(14 + DeviceHeightAid),
+    f15: RFValue(15 + DeviceHeightAid),
+    f16: RFValue(16 + DeviceHeightAid),
+    f17: RFValue(17 + DeviceHeightAid),
+    f18: RFValue(18 + DeviceHeightAid),
+    f19: RFValue(19 + DeviceHeightAid),
+    f20: RFValue(20 + DeviceHeightAid),
+    f21: RFValue(21 + DeviceHeightAid),
+    f22: RFValue(22 + DeviceHeightAid),
+    f23: RFValue(23 + DeviceHeightAid),
+    f24: RFValue(24 + DeviceHeightAid),
+    f25: RFValue(25 + DeviceHeightAid),
+    f26: RFValue(26 + DeviceHeightAid),
+    f27: RFValue(27 + DeviceHeightAid),
+    f28: RFValue(28 + DeviceHeightAid),
+    f29: RFValue(29 + DeviceHeightAid),
+    f30: RFValue(30 + DeviceHeightAid),
+    f31: RFValue(31 + DeviceHeightAid),
+    f32: RFValue(32 + DeviceHeightAid),
+    f33: RFValue(33 + DeviceHeightAid),
+    f34: RFValue(34 + DeviceHeightAid),
+    f35: RFValue(35 + DeviceHeightAid),
+    f36: RFValue(36 + DeviceHeightAid),
+    f37: RFValue(37 + DeviceHeightAid),
+    f38: RFValue(38 + DeviceHeightAid),
+    f39: RFValue(39 + DeviceHeightAid),
+    f40: RFValue(40 + DeviceHeightAid),
+    f41: RFValue(41 + DeviceHeightAid),
+    f42: RFValue(42 + DeviceHeightAid),
+    f43: RFValue(43 + DeviceHeightAid),
+    f44: RFValue(44 + DeviceHeightAid),
+    f45: RFValue(45 + DeviceHeightAid),
+    f46: RFValue(46 + DeviceHeightAid),
+    f47: RFValue(47 + DeviceHeightAid),
+    f48: RFValue(48 + DeviceHeightAid),
+    f49: RFValue(49 + DeviceHeightAid),
+    f50: RFValue(50 + DeviceHeightAid),
+    f51: RFValue(51 + DeviceHeightAid),
+    f52: RFValue(52 + DeviceHeightAid),
+    f53: RFValue(53 + DeviceHeightAid),
+    f54: RFValue(54 + DeviceHeightAid),
+    f55: RFValue(55 + DeviceHeightAid),
+    f56: RFValue(56 + DeviceHeightAid),
+    f57: RFValue(57),
+    f58: RFValue(58),
+    f59: RFValue(59),
+    f60: RFValue(60),
+    f61: RFValue(61),
+    f62: RFValue(62),
+    f63: RFValue(63),
+    f64: RFValue(64),
+    f65: RFValue(65),
+    f70: RFValue(70),
+    f77: RFValue(77),
+    f78: RFValue(78),
+    f84: RFValue(84),
+    f98: RFValue(98),
+    f120: RFValue(120),
+    f130: RFValue(130),
+    screenHeight: HEIGHT,
+    screenWidth: WIDTH,
+  },
+  Languages: {
+    en: 'en',
+    ar: 'ar',
+  },
+};
+
+export default Constants;
